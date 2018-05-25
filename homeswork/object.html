@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>object</title>
+    <meta charset = "uft-8">
+      </head>
+  <body>
+    <script>
+      var a;
+      var arr = [322,123];
+    var ford = {
+      make: 'Bugatii',
+      model: 'Vitesse',
+      year: 2016,
+      color: 'black',
+      passengers: 2,
+      mileage: 30000
+    };
+    var five = {
+      make: 'wulin',
+      model: 'hongguang',
+      year: 2016,
+      color: 'blue',
+      passengers: 7,
+      mileage: 300000
+    };
+     
+
+     function isNew(car){
+       if (car.year >= 2016 && car.mileage < 10000){
+       document.write("新车");
+     } else {
+       document.write("您的车" + car.make +"不值钱");
+     }
+     }
+     
+    isNew("ford")
+
+    </script>
+
+  </body>
+</html>
